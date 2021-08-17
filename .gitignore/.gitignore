@@ -1,0 +1,7 @@
+echo enter principal amount
+read p
+echo enter rate percentage
+read r
+echo enter time duration
+echo t
+awk "BEGIN{I=($p*$r*$t)/100; print \"The simple interest for the given amount is \", I;}"
